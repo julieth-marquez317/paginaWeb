@@ -1,0 +1,63 @@
+
+*{
+
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family:"poppins", sans-serif ;
+
+}
+header {
+width:100%;
+height: 50px;
+background:paleturquoise;
+color: #fff;
+position: fixed;
+top:0;
+left:0;
+}
+h1{
+float: left;
+}
+
+#banner{
+margin-top:50px;
+position: relative;
+}
+#banner img{
+width:100%;
+height:100%;
+}
+#banner .contenedor{
+
+position:absolute ;
+top:50%;
+left:50%;
+color:blueviolet ;
+transform:translateX(250px)translateY(-350px) ;
+
+}
+.menu a{
+
+display: inline-flex;
+color:black;
+height:60px;
+text-decoration:initial;
+padding:22px;
+border:0px solid #fff;
+}
+
+.menu a:hover{
+background:lightslategrey ;
+}
+#bienvenidos h2{
+
+padding:15px;
+text-transform:uppercase;
+}
+#servicios{
+padding:50px;
+
+} 
